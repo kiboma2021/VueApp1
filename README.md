@@ -2,7 +2,15 @@
 
 # Project Name
 
-> Description the project.
+```s
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+## methods:
+```s
+v-on:click =""
+v-on:hover=" "
+v-on:dbclick=" "
+
 
 
 ## Built With
