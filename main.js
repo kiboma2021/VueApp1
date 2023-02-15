@@ -2,9 +2,12 @@ const app=Vue.createApp({
     data(){
         return{
             showBooks: true,
-            title: 'Shreds of tenderness',
-            author: 'John Smith',
-            age: 34,
+            books:[
+                {title: 'Shreds of tenderness',author: 'John Smith',age: 34},
+                {title: 'Last day of dying horse',author: 'Benard',age: 19},
+                {title: 'Kidagaa Kimemwozea',author: 'John Joe',age: 77},
+                {title: 'Around and about',author: 'Ibrahim Mwanza',age: 46},              
+            ]
         }
     },
     methods: {
