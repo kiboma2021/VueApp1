@@ -7,11 +7,11 @@
 
 ## methods:
 ```s
-v-on:click =""
-v-on:hover=" "
-v-on:dbclick=" "
+v-on:click =""  or @click=""
+v-on:hover=" " or @hover=""
+v-on:dbclick=" " or @dbclick=""
 
-
+v-on can be replaced with @
 
 ## Built With
 
