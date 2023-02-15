@@ -11,6 +11,7 @@ v-on:click =""  or @click=""
 v-on:hover=" " or @hover=""
 v-on:dbclick=" " or @dbclick=""
 
+v-show (uses css) is recommended over v-if
 v-on can be replaced with @
 
 ## Built With
