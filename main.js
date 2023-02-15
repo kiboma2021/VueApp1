@@ -12,6 +12,9 @@ const app=Vue.createApp({
         },
         decreamentAge(){
             this.age--
+        },
+        changeTitle(){
+            this.title ="Wow!"
         }
     }
 
