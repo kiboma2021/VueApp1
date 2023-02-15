@@ -5,7 +5,16 @@ const app=Vue.createApp({
             author: 'John Smith',
             age: 34,
         }
+    },
+    methods: {
+        increamentAge(){
+            this.age++
+        },
+        decreamentAge(){
+            this.age--
+        }
     }
+
 })
 
 app.mount('#app')
