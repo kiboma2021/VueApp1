@@ -22,9 +22,9 @@
         <button type="button" @click="showHideBooks" >
             <span v-if="showBooks">Click to Hide Books </span>
             <span v-if="!showBooks"> Click to Show Books</span>
-        
         </button>
         
+        <h1 v-show="!showBooks"> Books are hidden from viewing</h1>
 
     </div>
 
