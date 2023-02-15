@@ -2,11 +2,11 @@
 
 # Project Name
 
-```s
+```sh
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
+```
 ## methods:
-```s
+```sh
 v-on:click =""  or @click=""
 v-on:hover=" " or @hover=""
 v-on:dblclick=" " or @dbclick=""
@@ -18,15 +18,15 @@ v-on can be replaced with @
 Other methods include:
 mouseover
 Mouseleave
-
+```
 
 
 ## Built With
-
+```sh
 - Vue Js
 - HTML
 - JavaScript
-
+```
 
 ## Authors
 
