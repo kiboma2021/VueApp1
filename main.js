@@ -4,10 +4,10 @@ const app=Vue.createApp({
             showBooks: true,
             github_url: 'https://github.com/kiboma2021',
             books:[
-                {title: 'Shreds of tenderness',author: 'John Smith',age: 34},
-                {title: 'Last day of dying horse',author: 'Benard',age: 19},
-                {title: 'Kidagaa Kimemwozea',author: 'John Joe',age: 77},
-                {title: 'Around and about',author: 'Ibrahim Mwanza',age: 46},              
+                {title: 'Shreds of tenderness',author: 'John Smith',age: 34,img:'./media/1.jpeg'},
+                {title: 'Last day of dying horse',author: 'Benard',age: 19,img:'./media/2.jpeg'},
+                {title: 'Kidagaa Kimemwozea',author: 'John Joe',age: 77,img:'./media/3.png'},
+                {title: 'Around and about',author: 'Ibrahim Mwanza',age: 46,img:'./media/4.jpeg'},              
             ]
         }
     },
