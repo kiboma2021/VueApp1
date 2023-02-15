@@ -14,6 +14,12 @@ v-on:dbclick=" " or @dbclick=""
 v-show (uses css) is recommended over v-if
 v-on can be replaced with @
 
+Other methods include:
+mouseover
+Mouseleave
+
+
+
 ## Built With
 
 - Major languages
