@@ -20,6 +20,9 @@ const app=Vue.createApp({
         showHideBooks(){
             //console.log("clicked")
             this.showBooks = !this.showBooks
+        },
+        handleEvent(){
+            console.log("Here we are!")
         }
     }
 

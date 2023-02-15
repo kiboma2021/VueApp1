@@ -28,10 +28,9 @@
         <h1 v-show="!showBooks"> Books are hidden from viewing</h1>
 
         <br><br>
-        <div class="box">Mouse Over</div>
-        <div class="box">Mouse Leave</div>
-        <div class="box">Double click</div>
-        <div class="box">ssss </div>
+        <div class="box" @mouseover="handleEvent">Mouse Over</div>
+        <div class="box" @mouseleave="handleEvent">Mouse Leave</div>
+        <div class="box" @dblclick="handleEvent">Double click</div>
 
     </div>
 
