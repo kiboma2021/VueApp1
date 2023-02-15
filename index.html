@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <h1>My vue App</h1>
     <div id="app">
+        <a :href="github_url" style="font-size: 2rem;">My vue App</a>
         <div v-if="showBooks">
             <div v-for="book in books">
                 <ol>

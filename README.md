@@ -10,7 +10,8 @@
 v-on:click =""  or @click=""
 v-on:hover=" " or @hover=""
 v-on:dblclick=" " or @dbclick=""
-
+v-for
+v-bind:href="" or :href=""
 v-show (uses css) is recommended over v-if
 v-on can be replaced with @
 
