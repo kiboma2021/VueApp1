@@ -12,10 +12,11 @@
     <h1>My vue App</h1>
     <div id="app">
         <div v-if="showBooks">
-        <p>Title: {{title}}</p>
-        <p>Author: {{author}}</p>
-        <p>Age: {{age}}</p>
-    
+            <div v-for="book in books">
+                <ol>
+                    <li style="background-color: red;color:white; padding: 2rem; font-size: 2rem;">Title: {{book.title}} Author: {{book.author}} Age: {{book.age}}</li> <br>
+                </ol>
+            </div>   
         <button type="button" @click="increamentAge">+</button> 
         <button type="button" @click="decreamentAge">-</button>
         <button type="button" @click="changeTitle">Change title</button>
