@@ -13,9 +13,9 @@
         <a :href="github_url" style="font-size: 2rem;">My vue App</a>
         <div v-if="showBooks">
             <div v-for="book in books">
-                <ol>
-                    <li style="background-color: red;color:white; padding: 2rem; font-size: 2rem;"><img :src="book.img" :alt="book.title"/> Title: {{book.title}} Author: {{book.author}} Age: {{book.age}}</li> <br>
-                </ol>
+                <ul>
+                    <li :class="{fav:book.isFav }"><img :src="book.img" :alt="book.title"/> Title: {{book.title}} Author: {{book.author}} Age: {{book.age}}</li> <br>
+                </ul>
             </div>   
         <button type="button" @click="increamentAge">+</button> 
         <button type="button" @click="decreamentAge">-</button>
