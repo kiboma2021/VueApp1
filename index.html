@@ -14,7 +14,7 @@
         <div v-if="showBooks">
             <div v-for="book in books">
                 <ul>
-                    <li :class="{fav:book.isFav }"><img :src="book.img" :alt="book.title"/> Title: {{book.title}} Author: {{book.author}} Age: {{book.age}}</li> <br>
+                    <li :class="{fav:book.isFav }" @click="book.isFav = !book.isFav" ><img :src="book.img" :alt="book.title"/> Title: {{book.title}} Author: {{book.author}} Age: {{book.age}}</li> <br>
                 </ul>
             </div>   
         <button type="button" @click="increamentAge">+</button> 
