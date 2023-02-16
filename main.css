@@ -8,3 +8,10 @@
     display: inline-block;
     text-align: center;
 }
+
+.fav {
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
